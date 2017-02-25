@@ -1,0 +1,63 @@
+body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    background-color: #fff;
+}
+
+.wrapper {
+    margin: 0px auto;
+    max-width: 975px;
+}
+
+.top_menu {
+    height: 15px;
+}
+
+.top_bar {
+    width: 975px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    border-bottom: 1px solid grey;
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+.top_bar_li {
+    float: left;
+}
+
+.top_bar_login {
+    float: right;
+}
+
+.top_bar_li a, .top_bar_login a {
+    color: grey;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 2px;
+}
+.header{
+    height: 100px;
+    width: auto;
+    margin: 15px;
+}
+.header-title {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    float: right;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+.header-banner{
+    overflow: hidden;
+}
+.header-banner img{
+    height: 100%;
+    overflow: hidden;
+}
